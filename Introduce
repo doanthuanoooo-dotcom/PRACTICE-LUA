@@ -1,0 +1,1968 @@
+ 1000 BÀI TẬP LUA ROBLOX - TỪ CƠ BẢN ĐẾN NÂNG CAO
+
+1. Khai báo biến `playerName` với giá trị là tên của bạn
+2. Tạo biến số `health = 100` và in ra màn hình
+3. Tạo biến boolean `isAlive = true`
+4. Khai báo biến `coins` không gán giá trị, sau đó gán giá trị 50
+5. Tạo biến string chứa câu "Welcome to Roblox!"
+6. Khai báo 3 biến cùng lúc: `x, y, z = 1, 2, 3`
+7. Hoán đổi giá trị 2 biến `a = 5, b = 10` không dùng biến thứ 3
+8. Tạo biến kiểu nil và kiểm tra type của nó
+9. Chuyển đổi string "123" thành number
+10. Chuyển đổi number 456 thành string
+11. Tạo biến chứa giá trị âm và in ra giá trị tuyệt đối
+12. Khai báo biến local và global, giải thích sự khác biệt
+13. Tạo biến với tên có dấu gạch dưới `player_score`
+14. Sử dụng tostring() để chuyển đổi boolean thành string
+15. Tạo biến số thực (decimal) `pi = 3.14159`
+16. Kiểm tra type của các biến khác nhau bằng type()
+17. Tạo biến chứa kết quả phép chia số nguyên
+18. Tính toán và lưu phần dư của phép chia
+19. Tạo constant (biến không đổi) bằng cách đặt tên IN HOA
+20. Kết hợp string và number bằng toán tử ..
+
+ Chủ đề 1.2: Toán Tử (15 bài)
+
+21. Thực hiện các phép tính cơ bản: +, -, *, /
+22. Sử dụng toán tử lũy thừa ^
+23. Tính toán modulo (phần dư) với %
+24. So sánh hai số bằng các toán tử ==, ~=, <, >, <=, >=
+25. Sử dụng toán tử logic: and, or, not
+26. Kết hợp nhiều điều kiện logic
+27. Tính toán biểu thức phức tạp với thứ tự ưu tiên
+28. Sử dụng dấu ngoặc để thay đổi thứ tự tính toán
+29. Nối chuỗi với toán tử ..
+30. Tính độ dài chuỗi với toán tử #
+31. Kiểm tra tính chẵn lẻ của số
+32. Tạo biểu thức boolean phức tạp
+33. Sử dụng toán tử unary (-)
+34. Tính chu vi hình tròn từ bán kính
+35. Tính diện tích hình chữ nhật
+
+ Chủ đề 1.3: Cấu Trúc Điều Kiện (25 bài)
+
+36. Viết câu lệnh if đơn giản kiểm tra số dương
+37. Sử dụng if-else kiểm tra số chẵn lẻ
+38. Viết if-elseif-else kiểm tra điểm số (A, B, C, D, F)
+39. Kiểm tra tuổi để phân loại (trẻ em, thanh niên, người lớn)
+40. So sánh 3 số tìm số lớn nhất
+41. Kiểm tra năm nhuận
+42. Xác định loại tam giác (cân, đều, vuông)
+43. Kiểm tra ký tự là nguyên âm hay phụ âm
+44. Viết chương trình máy tính đơn giản (+, -, *, /)
+45. Kiểm tra số chia hết cho cả 3 và 5
+46. Xác định thứ trong tuần từ số (1-7)
+47. Kiểm tra điều kiện lồng nhau (nested if)
+48. Sử dụng and, or trong điều kiện
+49. Kiểm tra chuỗi rỗng hoặc nil
+50. Viết điều kiện ternary-style với and/or
+51. Kiểm tra phạm vi số (trong khoảng 10-20)
+52. Xác định tứ phân của tọa độ (x, y)
+53. Kiểm tra mật khẩu đơn giản
+54. Phân loại BMI (gầy, bình thường, thừa cân, béo phì)
+55. Kiểm tra số nguyên tố (số nhỏ)
+56. Xác định mùa từ tháng
+57. Kiểm tra khả năng tạo tam giác từ 3 cạnh
+58. So sánh 2 chuỗi không phân biệt hoa thường
+59. Kiểm tra ký tự số hay chữ
+60. Tìm min/max của 4 số
+
+ Chủ đề 1.4: Vòng Lặp (25 bài)
+
+61. Vòng lặp for in từ 1 đến 10
+62. Vòng lặp for đếm ngược từ 10 về 1
+63. In bảng cửu chương 5
+64. Tính tổng từ 1 đến 100
+65. In các số chẵn từ 1 đến 50
+66. Vòng lặp while kiểm tra điều kiện
+67. Vòng lặp repeat-until
+68. Tính giai thừa của số n
+69. Tạo hình tam giác * với vòng lặp lồng
+70. In hình vuông * kích thước n x n
+71. Tính tổng các chữ số của số nguyên
+72. Đảo ngược số nguyên
+73. Kiểm tra số palindrome (đọc xuôi ngược như nhau)
+74. Tìm số Fibonacci thứ n
+75. Break vòng lặp khi tìm thấy số
+76. Continue để bỏ qua số lẻ
+77. Vòng lặp vô hạn với điều kiện thoát
+78. Đếm số lần xuất hiện của ký tự trong chuỗi
+79. Tìm UCLN của 2 số (Euclidean algorithm)
+80. Tìm BCNN của 2 số
+81. In dãy số nguyên tố < 100
+82. Tính tổng bình phương từ 1 đến n
+83. Kiểm tra số Armstrong (153 = 1³ + 5³ + 3³)
+84. In pattern kim cương bằng *
+85. Tính lũy thừa không dùng toán tử ^
+
+ Chủ đề 1.5: Hàm (15 bài)
+
+86. Tạo hàm không tham số in "Hello"
+87. Hàm có 1 tham số in lời chào với tên
+88. Hàm trả về tổng 2 số
+89. Hàm tính diện tích hình tròn
+90. Hàm kiểm tra số chẵn (return boolean)
+91. Hàm trả về nhiều giá trị (min, max)
+92. Hàm đệ quy tính giai thừa
+93. Hàm đệ quy Fibonacci
+94. Hàm với tham số mặc định
+95. Hàm vararg (số tham số không xác định)
+96. Hàm kiểm tra số nguyên tố
+97. Hàm chuyển Celsius sang Fahrenheit
+98. Hàm tìm max trong 3 số
+99. Hàm đảo ngược chuỗi
+100. Hàm local function vs global function
+
+---
+
+ PHẦN 2: TABLE VÀ DỮ LIỆU (100 BÀI)
+
+ Chủ đề 2.1: Table Cơ Bản (20 bài)
+
+101. Tạo table rỗng
+102. Tạo table array với 5 số
+103. Truy cập phần tử table bằng index
+104. Thêm phần tử vào table bằng table.insert()
+105. Xóa phần tử khỏi table bằng table.remove()
+106. Đếm số phần tử trong table với #
+107. Tạo table dictionary (key-value)
+108. Truy cập giá trị bằng key
+109. Duyệt table với for loop
+110. Duyệt table với pairs()
+111. Duyệt array với ipairs()
+112. Sao chép table (shallow copy)
+113. Kiểm tra key có tồn tại trong table không
+114. Tìm giá trị lớn nhất trong array
+115. Tìm giá trị nhỏ nhất trong array
+116. Tính tổng các phần tử trong array
+117. Sắp xếp table với table.sort()
+118. Đảo ngược table
+119. Nối 2 table với table.concat()
+120. Xóa tất cả phần tử trong table
+
+ Chủ đề 2.2: Table Nâng Cao (20 bài)
+
+121. Tạo table lồng nhau (nested table)
+122. Truy cập phần tử trong table lồng
+123. Table làm object với properties
+124. Tạo table với metatables cơ bản
+125. Deep copy table (sao chép sâu)
+126. Merge 2 tables
+127. Filter table theo điều kiện
+128. Map function cho table
+129. Reduce table thành giá trị duy nhất
+130. Tạo queue bằng table
+131. Tạo stack bằng table
+132. Kiểm tra 2 table bằng nhau
+133. Tìm kiếm tuyến tính trong table
+134. Tìm kiếm nhị phân trong table đã sắp xếp
+135. Xóa duplicate trong table
+136. Tạo table từ range (1 đến n)
+137. Shuffle (xáo trộn) table
+138. Partition table thành 2 phần
+139. Zip 2 tables lại với nhau
+140. Flatten nested table thành 1 chiều
+
+ Chủ đề 2.3: String Operations (20 bài)
+
+141. Tìm độ dài chuỗi
+142. Nối chuỗi với ..
+143. Chuyển uppercase với string.upper()
+144. Chuyển lowercase với string.lower()
+145. Tìm substring với string.find()
+146. Thay thế substring với string.gsub()
+147. Cắt chuỗi với string.sub()
+148. Tách chuỗi thành table với pattern
+149. Lặp qua từng ký tự trong chuỗi
+150. Đảo ngược chuỗi
+151. Kiểm tra chuỗi bắt đầu bằng prefix
+152. Kiểm tra chuỗi kết thúc bằng suffix
+153. Trim khoảng trắng đầu cuối
+154. Đếm số từ trong câu
+155. Capitalize chữ cái đầu
+156. Chuyển snake_case thành camelCase
+157. Pattern matching cơ bản
+158. Extract số từ chuỗi
+159. Format chuỗi với string.format()
+160. So sánh chuỗi (case-insensitive)
+
+ Chủ đề 2.4: Math Library (20 bài)
+
+161. Tính căn bậc 2 với math.sqrt()
+162. Làm tròn số với math.floor(), math.ceil()
+163. Tạo số ngẫu nhiên với math.random()
+164. Tính sin, cos, tan
+165. Tính giá trị tuyệt đối math.abs()
+166. Tìm min/max với math.min(), math.max()
+167. Tính lũy thừa với math.pow()
+168. Sử dụng math.pi
+169. Tính logarithm
+170. Chuyển độ sang radian và ngược lại
+171. Làm tròn đến n chữ số thập phân
+172. Tạo số ngẫu nhiên trong khoảng
+173. Tính khoảng cách 2 điểm
+174. Clamp giá trí trong khoảng min-max
+175. Tính diện tích tam giác (Heron's formula)
+176. Linear interpolation (lerp)
+177. Kiểm tra số chẵn với modulo
+178. Tính tổ hợp C(n, k)
+179. Tính chỉnh hợp P(n, k)
+180. Tạo UUID đơn giản
+
+ Chủ đề 2.5: Type Checking & Conversion (20 bài)
+
+181. Kiểm tra type với type()
+182. Kiểm tra nil
+183. Kiểm tra số với tonumber()
+184. Chuyển đổi string sang number
+185. Chuyển đổi number sang string
+186. Kiểm tra table rỗng
+187. Type guard function
+188. Assert type checking
+189. Safe type conversion
+190. Validate input function
+191. Kiểm tra boolean value
+192. Parse JSON-like string thành table
+193. Serialize table thành string
+194. Validate email format
+195. Validate số điện thoại
+196. Check if string is numeric
+197. Safe division (tránh chia 0)
+198. Type coercion examples
+199. Nil-safe navigation
+200. Default value pattern
+
+---
+
+ PHẦN 3: ROBLOX WORKSPACE CƠ BẢN (100 BÀI)
+
+ Chủ đề 3.1: Workspace & Parts (25 bài)
+
+201. Tạo Part mới trong Workspace
+202. Đổi tên Part
+203. Thay đổi kích thước Part
+204. Thay đổi vị trí Part
+205. Thay đổi màu sắc Part
+206. Đổi Material của Part
+207. Thay đổi Transparency
+208. Làm Part có thể đi qua (CanCollide = false)
+209. Neo Part (Anchored = true)
+210. Tạo Part tại vị trí người chơi
+211. Xóa Part sau 5 giây
+212. Clone Part
+213. Tìm Part theo tên
+214. Di chuyển Part theo trục
+215. Xoay Part
+216. Scale Part theo tỷ lệ
+217. Tạo nhiều Part theo pattern
+218. Group các Part thành Model
+219. Tính khoảng cách giữa 2 Parts
+220. Kiểm tra Part có chạm vào không
+221. Thay đổi Reflectance
+222. Tạo Part phát sáng (PointLight)
+223. Tạo Part trong Folder
+224. Parent/Child hierarchy
+225. Destroy vs Remove parts
+
+ Chủ đề 3.2: Vector3 & CFrame (25 bài)
+
+226. Tạo Vector3 cơ bản
+227. Cộng trừ Vector3
+228. Nhân Vector3 với scalar
+229. Tính magnitude (độ dài) Vector3
+230. Normalize Vector3
+231. Dot product của 2 Vector3
+232. Cross product của 2 Vector3
+233. Lerp giữa 2 Vector3
+234. Tạo CFrame từ vị trí
+235. Tạo CFrame với rotation
+236. Di chuyển Part bằng CFrame
+237. LookAt với CFrame
+238. Offset CFrame
+239. CFrame * Vector3
+240. Inverse CFrame
+241. ToWorldSpace và ToObjectSpace
+242. Tính góc giữa 2 Vector3
+243. Tạo random Vector3
+244. Clamp Vector3 trong bounding box
+245. Reflect Vector3
+246. Project Vector3 lên vector khác
+247. Slerp giữa 2 CFrame
+248. Tạo arc motion với CFrame
+249. Orbit quanh điểm
+250. Billboard CFrame (luôn quay về camera)
+
+ Chủ đề 3.3: Events & Connections (25 bài)
+
+251. Touched event cơ bản
+252. Disconnect event
+253. Kiểm tra ai chạm vào Part
+254. ChildAdded event
+255. ChildRemoved event
+256. Changed event
+257. Debounce pattern cho event
+258. Multiple connections cho 1 event
+259. Event với anonymous function
+260. AncestryChanged event
+261. DescendantAdded/Removed
+262. AttributeChanged event
+263. Cleaning up connections
+264. Event chỉ fire 1 lần
+265. Delay event execution
+266. Chain multiple events
+267. Custom event với BindableEvent
+268. Event priority handling
+269. Throttle event firing
+270. Event với coroutine
+271. Mouse click detection
+272. Proximity prompt events
+273. Collision filtering
+274. Region3 detection
+275. Magnitude-based triggers
+
+ Chủ đề 3.4: Tweening & Animation (25 bài)
+
+276. TweenService cơ bản
+277. Tween Position của Part
+278. Tween Size
+279. Tween Color
+280. Tween Transparency
+281. Multiple properties cùng lúc
+282. EasingStyle khác nhau
+283. EasingDirection
+284. Tween với repeat count
+285. Reverse tween
+286. Chain tweens
+287. Tween callback (Completed event)
+288. Cancel/Pause tween
+289. Tween CFrame rotation
+290. Smooth camera movement
+291. UI element tweening
+292. Tween với delay
+293. Elastic bounce effect
+294. Pulse animation (loop)
+295. Path animation
+296. Bezier curve tween
+297. Spring animation
+298. Shake effect
+299. Fade in/out
+300. Scale animation
+
+---
+
+ PHẦN 4: ROBLOX PLAYER & CHARACTER (100 BÀI)
+
+ Chủ đề 4.1: Player Service (25 bài)
+
+301. Lấy local player
+302. Lấy player từ Character
+303. PlayerAdded event
+304. PlayerRemoving event
+305. Lấy tất cả players
+306. Kiểm tra player có trong game
+307. Get player by name
+308. Get player by UserId
+309. Kick player
+310. Teleport player
+311. Player's DisplayName
+312. Player's AccountAge
+313. Player's Team
+314. Set player's Team
+315. Player's leaderstats
+316. Player data persistence
+317. Get player's mouse
+318. Player's camera
+319. Player's character
+320. Wait for character
+321. CharacterAdded event
+322. CharacterRemoving event
+323. Respawn player
+324. Check if player is friend
+325. Player membership type
+
+ Chủ đề 4.2: Character & Humanoid (25 bài)
+
+326. Lấy Humanoid từ Character
+327. Thay đổi WalkSpeed
+328. Thay đổi JumpPower/JumpHeight
+329. Set Health
+330. MaxHealth
+331. Died event
+332. HealthChanged event
+333. Jumping event
+334. Running event
+335. Seated event
+336. Apply damage to player
+337. Heal player
+338. Disable/enable jumping
+339. Freeze character (Anchored)
+340. Make character invisible
+341. Play animation
+342. Stop animation
+343. LoadAnimation
+344. Ragdoll character
+345. Get character's position
+346. Teleport character
+347. Add accessories to character
+348. Change character scale
+349. Face character to position
+350. Get parts touched by character
+
+ Chủ đề 4.3: Tools & Inventory (25 bài)
+
+351. Tạo Tool cơ bản
+352. Equipped event
+353. Unequipped event
+354. Activated event (click)
+355. Give tool to player
+356. Remove tool from player
+357. Check if player has tool
+358. Tool handle properties
+359. Require handle
+360. Tool grip properties
+361. CanBeDropped
+362. ManualActivationOnly
+363. Create weapon tool
+364. Ammo system
+365. Reload mechanic
+366. Tool damage
+367. Tool cooldown
+368. Tool durability
+369. Tool rarity system
+370. Inventory GUI
+371. Equip tool from GUI
+372. Tool pickup system
+373. Drop tool on death
+374. Save tool inventory
+375. Tool trading system
+
+ Chủ đề 4.4: Camera & Mouse (25 bài)
+
+376. Get CurrentCamera
+377. Set camera CFrame
+378. Camera.Focus
+379. CameraType (Fixed, Custom, etc.)
+380. FieldOfView
+381. Camera shake
+382. Smooth camera follow
+383. First person camera
+384. Third person camera
+385. Top-down camera
+386. Camera zoom
+387. Mouse.Hit
+388. Mouse.Target
+389. Mouse.Icon
+390. Mouse.Button1Down
+391. Mouse.Button1Up
+392. Mouse.Move
+393. Create cursor raycast
+394. Click to place object
+395. Mouse position on screen
+396. Screen to world position
+397. World to screen position
+398. Camera to viewport point
+399. Ray from camera to mouse
+400. Lock camera to part
+
+---
+
+ PHẦN 5: USER INTERFACE (100 BÀI)
+
+ Chủ đề 5.1: ScreenGui & Frames (25 bài)
+
+401. Tạo ScreenGui
+402. Tạo Frame
+403. Set Frame position (UDim2)
+404. Set Frame size
+405. BackgroundColor3
+406. BackgroundTransparency
+407. BorderSizePixel
+408. Visible property
+409. ZIndex layering
+410. AnchorPoint
+411. Create centered frame
+412. Full screen frame
+413. Nested frames
+414. Parent frames correctly
+415. Clone GUI elements
+416. Draggable frame
+417. Resizable frame
+418. Frame with rounded corners (UICorner)
+419. Frame with gradient (UIGradient)
+420. Frame with stroke (UIStroke)
+421. Aspect ratio constraint
+422. Size constraint
+423. UI padding
+424. UI list layout
+425. UI grid layout
+
+ Chủ đề 5.2: TextLabel & TextButton (25 bài)
+
+426. Tạo TextLabel
+427. Set text content
+428. Font property
+429. TextSize
+430. TextColor3
+431. TextStrokeColor3
+432. TextStrokeTransparency
+433. TextScaled
+434. TextWrapped
+435. TextXAlignment
+436. TextYAlignment
+437. RichText formatting
+438. Tạo TextButton
+439. MouseButton1Click event
+440. MouseEnter/MouseLeave
+441. Button hover effect
+442. Button click animation
+443. Disabled button state
+444. Button with icon
+445. Toggle button
+446. Button cooldown
+447. Sound on button click
+448. Button group (tabs)
+449. Confirmation dialog
+450. Custom button class
+
+ Chủ đề 5.3: ImageLabel & ImageButton (25 bài)
+
+451. Tạo ImageLabel
+452. Set Image property (asset ID)
+453. ImageTransparency
+454. ImageColor3 (tint)
+455. ScaleType (Stretch, Tile, etc.)
+456. SliceCenter for 9-slice
+457. TileSize
+458. ImageRectOffset
+459. ImageRectSize (sprite sheets)
+460. Tạo ImageButton
+461. Animated sprite sheet
+462. Loading spinner
+463. Progress bar
+464. Circular progress
+465. Health bar
+466. Stamina bar
+467. XP bar with level
+468. Inventory slot
+469. Item icon display
+470. Profile picture
+471. Badge display
+472. Notification icon
+473. Map marker
+474. Minimap
+475. Custom cursor image
+
+ Chủ đề 5.4: TextBox & Input (25 bài)
+
+476. Tạo TextBox
+477. PlaceholderText
+478. ClearTextOnFocus
+479. MultiLine
+480. TextEditable
+481. FocusLost event
+482. Focused event
+483. Text validation
+484. Number-only input
+485. Max character limit
+486. Chat box
+487. Search box
+488. Password field (TextBox.Text masking)
+489. Username input
+490. Filter inappropriate text
+491. Auto-complete suggestions
+492. Copy/paste handling
+493. Enter key detection
+494. Tab navigation
+495. Input debouncing
+496. Form validation
+497. Error messages
+498. Success messages
+499. Input sanitization
+500. Save text input
+
+---
+
+ PHẦN 6: DATASTORES & PERSISTENCE (100 BÀI)
+
+ Chủ đề 6.1: DataStore Basics (25 bài)
+
+501. Get DataStoreService
+502. GetDataStore
+503. SetAsync basic
+504. GetAsync basic
+505. UpdateAsync
+506. RemoveAsync
+507. Save player data on join
+508. Load player data
+509. Save data on leave
+510. Default values
+511. Error handling with pcall
+512. Retry logic
+513. Data versioning
+514. Migrate old data
+515. Backup system
+516. Data wipe function
+517. Admin data commands
+518. Global leaderboard
+519. Save player settings
+520. Save inventory
+521. Save achievements
+522. Save statistics
+523. Session locks
+524. Rate limiting
+525. Data size limits
+
+ Chủ đề 6.2: OrderedDataStore (20 bài)
+
+526. GetOrderedDataStore
+527. SetAsync for scores
+528. GetSortedAsync
+529. Top 10 leaderboard
+530. GetSortedAsync ascending
+531. Pagination
+532. Real-time leaderboard update
+533. Personal best tracking
+534. Global high scores
+535. Weekly leaderboards
+536. Monthly leaderboards
+537. Seasonal rankings
+538. Kill/death ratios
+539. Win streaks
+540. Fastest times
+541. Distance records
+542. Points accumulation
+543. Rank tiers
+544. Leaderboard GUI display
+545. Reward top players
+
+ Chủ đề 6.3: ProfileService Pattern (20 bài)
+
+546. Install ProfileService
+547. Create profile template
+548. Load profile
+549. Release profile
+550. GlobalUpdates
+551. Session locking
+552. Auto-save intervals
+553. Force save
+554. Profile reconciliation
+555. ListenToRelease
+556. View profiles
+557. Kick on profile load fail
+558. Data replication
+559. Cross-server data
+560. Profile metadata
+561. Last login tracking
+562. Playtime tracking
+563. Data analytics
+564. A/B testing data
+565. Economy balancing data
+
+ Chủ đề 6.4: Advanced Data Patterns (35 bài)
+
+566. Saving tables as JSON
+567. HttpService JSON encode/decode
+568. Compression for large data
+569. Incremental saves
+570. Dirty flag optimization
+571. Cache layer
+572. Data sharding
+573. Multi-key storage
+574. Relational data structure
+575. Foreign key references
+576. Data normalization
+577. Denormalization for speed
+578. Write-through cache
+579. Write-back cache
+580. Lazy loading
+581. Eager loading
+582. Data migration scripts
+583. Schema versioning
+584. Soft delete
+585. Hard delete
+586. Archive old data
+587. Data export
+588. Data import
+589. Bulk operations
+590. Transaction-like saves
+591. Rollback capability
+592. Audit logs
+593. Change tracking
+594. Data validation rules
+595. Sanitize before save
+596. Encrypt sensitive data
+597. Decrypt on load
+598. Data anonymization
+599. GDPR compliance helpers
+600. Data retention policies
+
+---
+
+ PHẦN 7: REMOTE EVENTS & NETWORKING (100 BÀI)
+
+ Chủ đề 7.1: RemoteEvent Basics (25 bài)
+
+601. Create RemoteEvent
+602. FireServer from client
+603. OnServerEvent
+604. FireClient to one player
+605. FireAllClients
+606. Passing single argument
+607. Passing multiple arguments
+608. Passing table data
+609. Security validation
+610. Rate limiting remotes
+611. Cooldown system
+612. Verify player parameter
+613. Sanity checks
+614. Anti-exploit measures
+615. Server-authoritative logic
+616. Client prediction
+617. Server reconciliation
+618. Inventory update remote
+619. Shop purchase remote
+620. Ability activation
+621. Chat message remote
+622. Trade request
+623. Friend request
+624. Team switch
+625. Teleport request
+
+ Chủ đề 7.2: RemoteFunction (20 bài)
+
+626. Create RemoteFunction
+627. InvokeServer
+628. OnServerInvoke
+629. Return value from server
+630. Return multiple values
+631. Timeout handling
+632. Error handling
+633. Get player data
+634. Get shop items
+635. Get leaderboard
+636. Validate purchase
+637. Check permission
+638. Calculate result
+639. Query available games
+640. Get player stats
+641. Request spawn location
+642. Get quest data
+643. Verify achievement
+644. Check cooldown status
+645. Get server time
+
+ Chủ đề 7.3: BindableEvent & BindableFunction (20 bài)
+
+646. Create BindableEvent
+647. Fire same-side communication
+648. Event between modules
+649. Create BindableFunction
+650. Invoke for return values
+651. Module communication
+652. Signal pattern
+653. Observer pattern
+654. Event aggregator
+655. Message bus
+656. Pub/sub system
+657. Event queue
+658. Priority events
+659. Deferred events
+660. Event batching
+661. Custom event class
+662. Type-safe events
+663. Event debugging
+664. Event with metadata
+665. Async event handling
+
+ Chủ đề 7.4: Advanced Networking (35 bài)
+
+666. Unreliable RemoteEvent
+667. Packet compression
+668. Delta compression
+669. Network ownership
+670. SetNetworkOwner
+671. Network replication
+672. Client-side prediction
+673. Lag compensation
+674. Interpolation
+675. Extrapolation
+676. Snapshot system
+677. State synchronization
+678. Position reconciliation
+679. Anti-cheat validation
+680. Server-side hitbox
+681. Projectile replication
+682. Movement validation
+683. Speed hack detection
+684. Teleport hack detection
+685. Fly hack detection
+686. No-clip detection
+687. Rate limit per player
+688. Bandwidth optimization
+689. Batch remote calls
+690. Throttle updates
+691. Priority replication
+692. Zone-based replication
+693. Proximity chat
+694. Global announcements
+695. Server messages
+696. Cross-server messaging
+697. MessagingService
+698. Publish to topic
+699. Subscribe to topic
+700. Server-to-server data
+
+---
+
+ PHẦN 8: COMBAT & WEAPONS (100 BÀI)
+
+ Chủ đề 8.1: Melee Combat (25 bài)
+
+701. Sword tool setup
+702. Swing animation
+703. Hit detection (Touched)
+704. Raycast hit detection
+705. Damage calculation
+706. Critical hits
+707. Combo system
+708. Attack cooldown
+709. Stamina system
+710. Block/parry mechanic
+711. Dodge roll
+712. Backstab detection
+713. Area of effect (AoE)
+714. Knockback effect
+715. Stun effect
+716. Bleeding damage over time
+717. Weapon durability
+718. Repair system
+719. Weapon upgrade
+720. Enchantments
+721. Special abilities
+722. Dual wielding
+723. Heavy vs light attacks
+724. Charge attack
+725. Execution moves
+
+ Chủ đề 8.2: Ranged Combat (25 bài)
+
+726. Gun tool setup
+727. Raycast shooting
+728. Bullet spread
+729. Recoil pattern
+730. Muzzle flash effect
+731. Bullet tracers
+732. Hit markers
+733. Headshot detection
+734. Damage falloff
+735. Reload system
+736. Magazine system
+737. Ammunition types
+738. Scope zoom
+739. Crosshair GUI
+740. Bullet penetration
+741. Ricochet bullets
+742. Explosive rounds
+743. Sniper mechanics
+744. Shotgun spread
+745. Burst fire mode
+746. Full auto mode
+747. Semi-auto mode
+748. Grenade throwing
+749. Projectile physics
+750. Bow and arrow
+
+ Chủ đề 8.3: Magic System (25 bài)
+
+751. Mana/Energy system
+752. Spell casting
+753. Cast time/channeling
+754. Cooldown management
+755. Fireball spell
+756. Ice spike spell
+757. Lightning bolt
+758. Healing spell
+759. Shield/barrier
+760. Teleportation
+761. Invisibility
+762. Slow/freeze effect
+763. Poison effect
+764. Burn effect
+765. Summon creature
+766. Area spell (circle)
+767. Cone spell
+768. Beam spell
+769. Projectile spell
+770. Homing missile
+771. Chain lightning
+772. Meteor strike
+773. Spell combos
+774. Mana regeneration
+775. Spell interruption
+
+ Chủ đề 8.4: Combat Systems (25 bài)
+
+776. Health system
+777. Shield/armor system
+778. Status effects manager
+779. Buff system
+780. Debuff system
+781. Damage types (physical, magical)
+782. Resistance system
+783. Armor penetration
+784. Life steal
+785. Thorns damage
+786. Invincibility frames
+787. Death system
+788. Respawn timer
+789. Kill feed
+790. Assist tracking
+791. Multi-kill detection
+792. Kill streak system
+793. Revenge system
+794. Bounty system
+795. Combat log
+796. Damage numbers GUI
+797. Hit indicators
+798. Low health warning
+799. Combat music trigger
+800. Boss fight mechanics
+
+---
+
+ PHẦN 9: GAME MECHANICS (100 BÀI)
+
+ Chủ đề 9.1: Economy System (25 bài)
+
+801. Currency system
+802. Coin pickup
+803. Money on kill
+804. Shop GUI
+805. Buy item validation
+806. Sell item system
+807. Item prices
+808. Dynamic pricing
+809. Inflation control
+810. Tax system
+811. Trading system
+812. Auction house
+813. Trade window GUI
+814. Trade confirmation
+815. Scam prevention
+816. Daily rewards
+817. Login streak bonus
+818. Quest rewards
+819. Achievement rewards
+820. Referral rewards
+821. VIP benefits
+822. Game passes
+823. Developer products
+824. Subscription system
+825. Premium currency
+
+ Chủ đề 9.2: Inventory System (25 bài)
+
+826. Inventory data structure
+827. Add item to inventory
+828. Remove item
+829. Check if has item
+830. Item stacking
+831. Max stack size
+832. Inventory slots
+833. Inventory GUI
+834. Drag and drop items
+835. Equip from inventory
+836. Unequip item
+837. Quick slots
+838. Item sorting
+839. Item filtering
+840. Search inventory
+841. Item categories
+842. Item rarity colors
+843. Item tooltips
+844. Item comparison
+845. Salvage/dismantle
+846. Crafting system
+847. Recipe system
+848. Material requirements
+849. Crafting queue
+850. Bulk crafting
+
+ Chủ đề 9.3: Quest System (25 bài)
+
+851. Quest data structure
+852. Quest types (kill, collect, etc.)
+853. Accept quest
+854. Track quest progress
+855. Complete quest
+856. Turn in quest
+857. Quest rewards
+858. Quest chains
+859. Daily quests
+860. Weekly quests
+861. Repeatable quests
+862. Quest log GUI
+863. Active quests display
+864. Quest markers
+865. Quest NPCs
+866. Dialogue system
+867. Quest requirements
+868. Level requirements
+869. Prerequisite quests
+870. Failed quest conditions
+871. Quest timers
+872. Escort quests
+873. Delivery quests
+874. Discovery quests
+875. Boss quests
+
+ Chủ đề 9.4: Progression System (25 bài)
+
+876. Experience points (XP)
+877. Level up system
+878. XP curve calculation
+879. Level requirements
+880. Skill points
+881. Skill tree
+882. Unlock abilities
+883. Stat allocation
+884. Strength/Agility/Intelligence
+885. Character attributes
+886. Prestige system
+887. Rank system
+888. Title system
+889. Achievement system
+890. Badge unlocking
+891. Progress bars GUI
+892. Level up effects
+893. Notification system
+894. Milestone rewards
+895. Seasonal progression
+896. Battle pass
+897. Tier rewards
+898. Premium rewards
+899. Progression reset
+900. Leaderboards integration
+
+---
+
+ PHẦN 10: AI & NPC (100 BÀI)
+
+ Chủ đề 10.1: Basic NPC (25 bài)
+
+901. Create NPC character
+902. Humanoid setup
+903. Weld parts together
+904. Animate NPC
+905. Idle animation
+906. Walk animation
+907. Attack animation
+908. PathfindingService
+909. Find path to target
+910. Follow player
+911. Wander randomly
+912. Patrol waypoints
+913. Chase player
+914. Return to spawn
+915. NPC health
+916. NPC damage
+917. NPC death
+918. Respawn NPC
+919. Aggro range
+920. De-aggro distance
+921. Attack range
+922. Attack cooldown
+923. Line of sight check
+924. Obstacle avoidance
+925. Jump over obstacles
+
+ Chủ đề 10.2: Combat AI (25 bài)
+
+926. Target selection
+927. Closest enemy
+928. Lowest health target
+929. Threat system
+930. Aggro management
+931. Tank/DPS/Healer AI
+932. Melee attack AI
+933. Ranged attack AI
+934. Kiting behavior
+935. Retreat when low HP
+936. Call for help
+937. Group tactics
+938. Flanking maneuvers
+939. Cover system
+940. Strafe movement
+941. Circle strafe
+942. Dodge attacks
+943. Block/parry
+944. Counter-attack
+945. Ability usage
+946. Cooldown management
+947. Resource management
+948. Focus fire
+949. Switch targets
+950. Finish wounded enemies
+
+ Chủ đề 10.3: Advanced AI (25 bài)
+
+951. State machine
+952. Behavior tree
+953. Goal-oriented AI
+954. Utility AI
+955. Decision making
+956. Priority system
+957. Dynamic difficulty
+958. Learn player patterns
+959. Adaptive AI
+960. Stealth detection
+961. Search behavior
+962. Alert system
+963. Sound detection
+964. Vision cone
+965. Peripheral vision
+966. Memory system
+967. Last known position
+968. Predict player movement
+969. Ambush tactics
+970. Set traps
+971. Use environment
+972. Team coordination
+973. Formation movement
+974. Leader/follower
+975. Squad commands
+
+ Chủ đề 10.4: NPC Interaction (25 bài)
+
+976. Dialogue system
+977. Proximity prompt
+978. Talk to NPC
+979. Dialogue tree
+980. Branching conversations
+981. Choice buttons
+982. Quest dialogue
+983. Shop keeper NPC
+984. Vendor GUI
+985. Blacksmith NPC
+986. Trainer NPC
+987. Bank NPC
+988. Innkeeper NPC
+989. Guard NPC
+990. Companion NPC
+991. Pet following
+992. Mount system
+993. NPC emotions
+994. Facial expressions
+995. Gesture animations
+996. Voice lines (TextChatService)
+997. Random idle chatter
+998. Context-aware dialogue
+999. Reputation system
+1000. Faction standing
+
+---
+
+ PHẦN 11: ADVANCED SYSTEMS (100 BÀI)
+
+ Chủ đề 11.1: Procedural Generation (25 bài)
+
+1001. Random terrain generation
+1002. Seed-based generation
+1003. Perlin noise
+1004. Height map
+1005. Biome system
+1006. Dungeon generation
+1007. Room placement
+1008. Corridor connections
+1009. Maze algorithm
+1010. Random loot placement
+1011. Spawn points
+1012. Obstacle placement
+1013. Building generator
+1014. City generation
+1015. Road networks
+1016. Tree placement
+1017. Rock scattering
+1018. Water bodies
+1019. Cave systems
+1020. Island generation
+1021. Chunk loading
+1022. Infinite terrain
+1023. LOD system
+1024. Procedural missions
+1025. Random events
+
+ Chủ đề 11.2: Physics & Vehicles (25 bài)
+
+1026. Car chassis setup
+1027. VehicleSeat
+1028. Wheel constraints
+1029. Engine torque
+1030. Steering system
+1031. Braking
+1032. Suspension
+1033. Drift mechanics
+1034. Boost system
+1035. Speedometer GUI
+1036. Fuel system
+1037. Damage model
+1038. Part breaking
+1039. Boat physics
+1040. Airplane controls
+1041. Helicopter physics
+1042. Jetpack
+1043. Grappling hook
+1044. Rope/spring constraints
+1045. Destructible buildings
+1046. Explosion force
+1047. Gravity manipulation
+1048. Wind effects
+1049. Custom physics
+1050. Ragdoll on death
+
+ Chủ đề 11.3: Multiplayer Features (25 bài)
+
+1051. Team system
+1052. Team selection GUI
+1053. Team spawn points
+1054. Team chat
+1055. Team colors
+1056. Friendly fire toggle
+1057. Party system
+1058. Invite to party
+1059. Party leader
+1060. Kick from party
+1061. Voice chat regions
+1062. Server browser
+1063. Private servers
+1064. Reserved slots
+1065. Spectator mode
+1066. Replay system
+1067. Match making
+1068. Skill-based matching
+1069. Lobby system
+1070. Ready up
+1071. Vote kick
+1072. Vote map
+1073. Round system
+1074. Intermission
+1075. End game screen
+
+ Chủ đề 11.4: Admin & Moderation (25 bài)
+
+1076. Admin commands
+1077. Permission levels
+1078. Kick command
+1079. Ban system
+1080. Temporary ban
+1081. Mute player
+1082. Teleport player
+1083. Give item
+1084. Set health
+1085. God mode
+1086. Invisibility
+1087. Fly command
+1088. Speed command
+1089. Kill command
+1090. Respawn command
+1091. Announce message
+1092. Server shutdown
+1093. Clear parts
+1094. Time control
+1095. Weather control
+1096. Noclip
+1097. View player stats
+1098. Admin GUI
+1099. Command logs
+1100. Report system
+
+---
+
+ PHẦN 12: OPTIMIZATION & POLISH (100 BÀI)
+
+ Chủ đề 12.1: Performance (25 bài)
+
+1101. Object pooling
+1102. Recycle parts
+1103. Streaming enabled
+1104. Region3 optimization
+1105. Spatial partitioning
+1106. Octree structure
+1107. Debounce functions
+1108. Throttle functions
+1109. Memoization
+1110. Lazy loading
+1111. Async operations
+1112. Coroutine yielding
+1113. RunService priority
+1114. Heartbeat vs Stepped
+1115. BindToRenderStep
+1116. Memory management
+1117. Garbage collection
+1118. Weak tables
+1119. Cache frequently used
+1120. Minimize :FindFirstChild
+1121. Use WaitForChild wisely
+1122. Avoid while true loops
+1123. Event-driven architecture
+1124. Profile with MicroProfiler
+1125. Script performance analyzer
+
+ Chủ đề 12.2: Visual Effects (25 bài)
+
+1126. ParticleEmitter basics
+1127. Fire effect
+1128. Smoke effect
+1129. Sparkles
+1130. Trail effect
+1131. Beam effect
+1132. Explosion effect
+1133. Custom particles
+1134. Screen shake
+1135. Camera blur
+1136. Color correction
+1137. Bloom effect
+1138. Depth of field
+1139. Vignette
+1140. Lighting effects
+1141. Dynamic shadows
+1142. Fog system
+1143. Weather effects
+1144. Rain particles
+1145. Snow particles
+1146. Wind particles
+1147. Water splash
+1148. Dust clouds
+1149. Blood effects
+1150. Impact effects
+
+ Chủ đề 12.3: Sound & Music (25 bài)
+
+1151. Sound basics
+1152. Play sound
+1153. Stop sound
+1154. Loop sound
+1155. Volume control
+1156. PlaybackSpeed
+1157. 3D positional sound
+1158. RollOffMaxDistance
+1159. Sound groups
+1160. Music system
+1161. Playlist
+1162. Crossfade music
+1163. Dynamic music
+1164. Combat music
+1165. Ambient sounds
+1166. Footstep sounds
+1167. Surface sounds
+1168. UI sounds
+1169. Button click sound
+1170. Notification sound
+1171. Victory sound
+1172. Defeat sound
+1173. Level up sound
+1174. Damage sound
+1175. Sound effects manager
+
+ Chủ đề 12.4: Polish & UX (25 bài)
+
+1176. Loading screen
+1177. Progress bar
+1178. Smooth transitions
+1179. Page animations
+1180. Tooltip system
+1181. Context menus
+1182. Confirmation dialogs
+1183. Error messages
+1184. Success notifications
+1185. Tutorial system
+1186. Hint system
+1187. Keybind display
+1188. Settings menu
+1189. Graphics settings
+1190. Audio settings
+1191. Controls settings
+1192. Save settings
+1193. Reset to defaults
+1194. Accessibility options
+1195. Colorblind mode
+1196. Subtitles
+1197. Screen reader support
+1198. Mobile controls
+1199. Touch controls
+1200. Gamepad support
+
+---
+
+ PHẦN 13: MINI-GAMES & GENRES (100 BÀI)
+
+ Chủ đề 13.1: Obby/Platformer (25 bài)
+
+1201. Checkpoint system
+1202. Stage progress
+1203. Kill brick
+1204. Moving platform
+1205. Rotating platform
+1206. Disappearing platform
+1207. Bouncy platform
+1208. Speed boost pad
+1209. Jump boost pad
+1210. Teleporter
+1211. Ladder climbing
+1212. Wall jump
+1213. Double jump
+1214. Dash ability
+1215. Grapple mechanic
+1216. Swing rope
+1217. Moving obstacle
+1218. Spinning killpart
+1219. Lava rising
+1220. Timer challenge
+1221. Speedrun timer
+1222. Leaderboard times
+1223. Ghost replay
+1224. Practice mode
+1225. Difficulty levels
+
+ Chủ đề 13.2: Simulator Games (25 bài)
+
+1226. Click counter
+1227. Auto-clicker
+1228. Rebirth system
+1229. Multiplier system
+1230. Upgrade shop
+1231. Pet system
+1232. Pet following
+1233. Pet abilities
+1234. Hatch egg system
+1235. Pet inventory
+1236. Trading pets
+1237. Backpack capacity
+1238. Sell items
+1239. Auto-sell
+1240. Area unlocking
+1241. Area progression
+1242. Codes system
+1243. Redeem code
+1244. Daily spin
+1245. Lucky wheel
+1246. Gamepasses
+1247. 2x multiplier
+1248. VIP area
+1249. Leaderboards
+1250. Social features
+
+ Chủ đề 13.3: Tycoon Games (25 bài)
+
+1251. Button claim
+1252. Droppers
+1253. Collector
+1254. Money calculation
+1255. Purchase object
+1256. Unlock next item
+1257. Dependency system
+1258. Conveyor belt
+1259. Processing machine
+1260. Storage container
+1261. Upgrade station
+1262. Tycoon manager
+1263. Multiple tycoons
+1264. Tycoon reset
+1265. Save tycoon progress
+1266. Load tycoon data
+1267. Visitor donations
+1268. Robux purchases
+1269. Decoration items
+1270. Custom building
+1271. Security system
+1272. Anti-grief
+1273. Expansion areas
+1274. Tycoon themes
+1275. Prestige tycoon
+
+ Chủ đề 13.4: RPG/Adventure (25 bài)
+
+1276. Class selection
+1277. Character creation
+1278. Attribute system
+1279. Skill system
+1280. Talent tree
+1281. Equipment slots
+1282. Armor sets
+1283. Set bonuses
+1284. Enchanting
+1285. Socket system
+1286. Gems/runes
+1287. Dungeon system
+1288. Party finder
+1289. Raid mechanics
+1290. Boss mechanics
+1291. Loot system
+1292. Loot tables
+1293. Drop rates
+1294. Rare items
+1295. Legendary items
+1296. World map
+1297. Fast travel
+1298. Mount system
+1299. Housing system
+1300. Guild system
+
+---
+
+ PHẦN 14: SCRIPTING PATTERNS (100 BÀI)
+
+ Chủ đề 14.1: Design Patterns (25 bài)
+
+1301. Singleton pattern
+1302. Factory pattern
+1303. Observer pattern
+1304. Command pattern
+1305. State pattern
+1306. Strategy pattern
+1307. Module pattern
+1308. Service locator
+1309. Dependency injection
+1310. Object pooling pattern
+1311. Prototype pattern
+1312. Builder pattern
+1313. Adapter pattern
+1314. Facade pattern
+1315. Proxy pattern
+1316. Decorator pattern
+1317. Composite pattern
+1318. Chain of responsibility
+1319. Mediator pattern
+1320. Memento pattern
+1321. Template method
+1322. Visitor pattern
+1323. Flyweight pattern
+1324. Bridge pattern
+1325. MVC pattern
+
+ Chủ đề 14.2: Module System (25 bài)
+
+1326. Create ModuleScript
+1327. Require module
+1328. Return table
+1329. Return function
+1330. Module variables
+1331. Module functions
+1332. Private functions
+1333. Public interface
+1334. Module initialization
+1335. Lazy initialization
+1336. Module dependencies
+1337. Circular dependencies
+1338. Module organization
+1339. ReplicatedStorage modules
+1340. ServerScriptService modules
+1341. Shared modules
+1342. Config module
+1343. Constants module
+1344. Utility module
+1345. Helper functions
+1346. Math utilities
+1347. String utilities
+1348. Table utilities
+1349. Module versioning
+1350. Hot reload modules
+
+ Chủ đề 14.3: Error Handling (25 bài)
+
+1351. pcall basics
+1352. xpcall with traceback
+1353. Custom error messages
+1354. Error handling wrapper
+1355. Try-catch pattern
+1356. Assert validation
+1357. Error codes
+1358. Error logging
+1359. Stack traces
+1360. Debugging prints
+1361. Debug library
+1362. Breakpoints
+1363. Inspect variables
+1364. Warn() function
+1365. Error recovery
+1366. Graceful degradation
+1367. Fallback values
+1368. Error reporting
+1369. Analytics integration
+1370. Error notifications
+1371. Retry logic
+1372. Exponential backoff
+1373. Circuit breaker
+1374. Timeout handling
+1375. Resource cleanup
+
+ Chủ đề 14.4: Testing & Debugging (25 bài)
+
+1376. Unit testing
+1377. Test framework
+1378. Assert functions
+1379. Test cases
+1380. Test suites
+1381. Mock objects
+1382. Stub functions
+1383. Integration tests
+1384. Performance tests
+1385. Load testing
+1386. Stress testing
+1387. Debug output
+1388. Console logging
+1389. Visual debugging
+1390. Profiling code
+1391. Memory profiling
+1392. Network profiling
+1393. Script analysis
+1394. Code coverage
+1395. Regression testing
+1396. Automated testing
+1397. Test data
+1398. Edge cases
+1399. Boundary testing
+1400. Debug commands
+
+---
+
+ PHẦN 15: SECURITY & ANTI-EXPLOIT (100 BÀI)
+
+ Chủ đề 15.1: Server Validation (25 bài)
+
+1401. Validate remote calls
+1402. Sanitize input
+1403. Type checking
+1404. Range validation
+1405. Rate limiting
+1406. Cooldown enforcement
+1407. Permission checks
+1408. Ownership validation
+1409. Distance checks
+1410. Line of sight
+1411. Inventory validation
+1412. Currency validation
+1413. Transaction verification
+1414. Double-spend prevention
+1415. Idempotency
+1416. Replay attack prevention
+1417. Session validation
+1418. Token system
+1419. Nonce usage
+1420. Timestamp checking
+1421. Sequence numbers
+1422. Checksum validation
+1423. Hash verification
+1424. Digital signatures
+1425. Audit trails
+
+ Chủ đề 15.2: Anti-Cheat (25 bài)
+
+1426. Speed hack detection
+1427. Position validation
+1428. Teleport detection
+1429. Fly detection
+1430. Noclip detection
+1431. Aimbot detection
+1432. ESP detection
+1433. Wallhack prevention
+1434. God mode detection
+1435. Infinite ammo check
+1436. Stat manipulation
+1437. Item duplication
+1438. Money exploit
+1439. XP exploit detection
+1440. Auto-clicker detection
+1441. Bot detection
+1442. Script injection
+1443. Memory manipulation
+1444. Client tampering
+1445. Unauthorized tools
+1446. Suspicious patterns
+1447. Behavioral analysis
+1448. Anomaly detection
+1449. Ban system
+1450. Evidence collection
+
+ Chủ đề 15.3: Data Security (25 bài)
+
+1451. Encrypt passwords
+1452. Hash sensitive data
+1453. Salt generation
+1454. Secure random
+1455. API key management
+1456. Environment variables
+1457. Secrets storage
+1458. Access control lists
+1459. Role-based access
+1460. Permission system
+1461. Privilege escalation
+1462. Least privilege
+1463. Input filtering
+1464. Output encoding
+1465. SQL injection prevention
+1466. XSS prevention
+1467. CSRF protection
+1468. Secure session
+1469. Token expiration
+1470. Refresh tokens
+1471. Password policy
+1472. Account lockout
+1473. Brute force prevention
+1474. Two-factor auth
+1475. Security headers
+
+ Chủ đề 15.4: Best Practices (25 bài)
+
+1476. Never trust client
+1477. Server authority
+1478. Minimize client control
+1479. Validate everything
+1480. Whitelist approach
+1481. Defense in depth
+1482. Fail securely
+1483. Principle of least astonishment
+1484. Keep it simple
+1485. Regular updates
+1486. Patch vulnerabilities
+1487. Security audits
+1488. Penetration testing
+1489. Code review
+1490. Static analysis
+1491. Dynamic analysis
+1492. Dependency scanning
+1493. Version control
+1494. Change management
+1495. Incident response
+1496. Disaster recovery
+1497. Backup strategy
+1498. Logging security events
+1499. Monitor anomalies
+1500. Security training
+
+---
+
+ PHẦN 16: ADVANCED GAMEPLAY (100 BÀI)
+
+ Chủ đề 16.1: Building System (25 bài)
+
+1501. Place object tool
+1502. Grid snapping
+1503. Rotation tool
+1504. Delete tool
+1505. Copy tool
+1506. Undo/redo system
+1507. Save builds
+1508. Load builds
+1509. Serialize parts
+1510. Deserialize data
+1511. Building permissions
+1512. Plot system
+1513. Claim plot
+1514. Plot boundaries
+1515. Building limits
+1516. Material selector
+1517. Color picker
+1518. Resize tool
+1519. Mesh placement
+1520. Model placement
+1521. Terrain editing
+1522. Smooth terrain
+1523. Paint terrain
+1524. Blueprint system
+1525. Prefab system
+
+ Chủ đề 16.2: Farming/Resource (25 bài)
+
+1526. Plant seeds
+1527. Growth system
+1528. Harvest crops
+1529. Crop yield
+1530. Watering system
+1531. Fertilizer
+1532. Seasons
+1533. Weather effects
+1534. Mining system
+1535. Ore generation
+1536. Pickaxe tool
+1537. Resource nodes
+1538. Respawn timer
+1539. Fishing system
+1540. Fishing mini-game
+1541. Fish types
+1542. Rarity system
+1543. Lumberjack
+1544. Tree chopping
+1545. Replant trees
+1546. Animal farming
+1547. Breeding system
+1548. Feed animals
+1549. Collect products
+1550. Market prices
+
+ Chủ đề 16.3: Cooking/Crafting (25 bài)
+
+1551. Recipe database
+1552. Ingredient system
+1553. Crafting station
+1554. Crafting UI
+1555. Craft item
+1556. Check requirements
+1557. Consume materials
+1558. Skill requirements
+1559. Tool requirements
+1560. Quality system
+1561. Cooking station
+1562. Cook food
+1563. Burning mechanic
+1564. Food buffs
+1565. Hunger system
+1566. Thirst system
+1567. Food spoilage
+1568. Storage system
+1569. Refrigerator
+1570. Alchemy system
+1571. Potion brewing
+1572. Ingredient combos
+1573. Experimentation
+1574. Discovery system
+1575. Master recipes
+
+ Chủ đề 16.4: Social Features (25 bài)
+
+1576. Friend system
+1577. Add friend
+1578. Remove friend
+1579. Friend list GUI
+1580. Online status
+1581. Private messaging
+1582. Chat filters
+1583. Emotes system
+1584. Emote wheel
+1585. Custom emotes
+1586. Trading system
+1587. Trade request
+1588. Trade GUI
+1589. Trade verification
+1590. Gift system
+1591. Send gift
+1592. Receive gift
+1593. Mail system
+1594. Inbox
+1595. Send mail
+1596. Clan system
+1597. Create clan
+1598. Join clan
+1599. Clan ranks
+1600. Clan chat
+
+---
+
+ PHẦN 17: MONETIZATION (100 BÀI)
+
+ Chủ đề 17.1: Game Passes (25 bài)
+
+1601. Create game pass
+1602. Check ownership
+1603. Prompt purchase
+1604. VIP benefits
+1605. Double XP pass
+1606. Double money pass
+1607. Exclusive items
+1608. Cosmetic passes
+1609. Permanent bonuses
+1610. Speed boost pass
+1611. Flight pass
+1612. Teleport pass
+1613. Private server pass
+1614. Ad removal pass
+1615. Name color pass
+1616. Chat tags pass
+1617. Special effects pass
+1618. Pet slots pass
+1619. Inventory expansion
+1620. Storage upgrade
+1621. Build limit increase
+1622. Plot expansion
+1623. Multiple game passes
+1624. Bundle deals
+1625. Seasonal passes
+
+ Chủ đề 17.2: Developer Products (25 bài)
+
+1626. Create dev product
+1627. Prompt purchase
+1628. ProcessReceipt
+1629. Grant purchase
+1630. Currency packs
+1631. Small coin pack
+1632. Large coin pack
+1633. Mega coin pack
+1634. Consumable items
+1635. Health potion
+1636. Speed boost
+1637. XP boost
+1638. Shield
+1639. Revive token
+1640. Teleport token
+1641. Name change
+1642. Avatar item
+1643. Loot box
+1644. Random reward
+1645. Gacha system
+1646. Pity system
+1647. Guaranteed drops
+1648. Transaction history
+1649. Purchase limits
+1650. Refund handling
+
+ Chủ đề 17.3: Premium Benefits (25 bài)
+
+1651. Check premium status
+1652. Premium payouts
+1653. Engagement-based payouts
+1654. Premium-only area
+1655. Premium multipliers
+1656. Premium rewards
+1657. Early access
+1658. Exclusive content
+1659. Premium currency
+1660. Premium shop
+1661. Premium quests
+1662. Premium events
+1663. Premium perks
+1664. Reduced cooldowns
+1665. Increased drops
+1666. Priority queue
+1667. Custom nameplate
+1668. Premium icon
+1669. Premium animations
+1670. Premium pets
+1671. Premium trails
+1672. Premium emotes
+1673. Premium vehicles
+1674. Premium housing
+1675. Premium support
+
+ Chủ đề 17.4: Engagement (25 bài)
+
+1676. Daily login rewards
+1677. Login streak system
+1678. Weekly challenges
+1679. Monthly events
+1680. Limited-time offers
+1681. Flash sales
+1682. Discount system
+1683. Bundle pricing
+1684. First-time buyer bonus
+1685. Returning player rewards
+1686. Referral system
+1687. Invite friends
+1688. Referral rewards
+1689. Milestone rewards
+1690. Play time rewards
+1691. Activity rewards
+1692. Seasonal events
+1693. Holiday themes
+1694. Event currency
+1
