@@ -1,0 +1,24 @@
+-- Find remainder
+local a = 103
+local b = a % 2
+print(b)
+
+-- Find Even / Odd
+local d = 15
+if d % 2 == 0 then
+	print("ok")
+end
+
+-- The last digits
+local e = a % 10
+print(e)
+
+-- Set Limit
+local t = 0
+while true do
+	local m = math.floor(t / 60)
+	local s = t % 60
+	print(string.format("%02d:%02d", m, s))
+	t += 1
+	task.wait(1)
+end
