@@ -1,0 +1,19 @@
+local farming = true
+local a = 5
+local b = 10
+local c = 20
+
+if farming then
+	print("Farming")
+else
+	print("Not Farming")
+end
+
+
+if not (a + b == c) then
+	print("a + b is not equal to c")
+end
+
+if ((c == b) or (c == a)) then
+	print("c is equal to b or a")
+end
